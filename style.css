@@ -76,7 +76,7 @@ nav a { color: white; text-decoration: none; font-weight: 500; }
 a:hover, nav a:hover { color: var(--accent-color); }
 
 /* Главный баннер. Путь считается от расположения этого CSS-файла.
-   Проверьте, что samarkand1.png лежит рядом со style.css; иначе замените путь, например на url("images/samarkand1.png"). */
+   Проверьте, что samarkand1.webp лежит рядом со style.css; иначе замените путь, например на url("images/samarkand1.webp"). */
 .hero {
     display: grid;
     min-height: 440px;
@@ -84,7 +84,7 @@ a:hover, nav a:hover { color: var(--accent-color); }
     padding: 56px 20px;
     text-align: center;
     color: white;
-    background-image: linear-gradient(rgba(17, 30, 23, 0.48), rgba(17, 30, 23, 0.58)), url("samarkand1.png");
+    background-image: linear-gradient(rgba(17, 30, 23, 0.48), rgba(17, 30, 23, 0.58)), url("samarkand1.webp");
     background-color: var(--main-color);
     background-size: cover;
     background-position: center;
