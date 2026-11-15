@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWay — Бронирование тура</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="booking-page">
+
+<header class="site-header">
+    <div class="container">
+        <div class="header-intro">
+            <h1>TravelWay</h1>
+            <p>Откройте мир вместе с нами</p>
+        </div>
+
+        <nav>
+            <a href="glavnayaStr.html">Главная</a>
+            <a href="turi.html">Туры</a>
+            <a href="oteli.html">Отели</a>
+            <a href="oNas.html">О нас</a>
+            <a href="glavnayaStr.html#kontakti">Контакты</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="booking-intro">
+        <h2>Бронирование тура</h2>
+        <p>
+            Заполните форму ниже, чтобы оставить заявку
+            на путешествие. Мы рады помочь вам организовать отдых!
+        </p>
+    </section>
+
+    <section class="booking-card">
+
+        <h2>Данные для бронирования</h2>
+
+        <form action="#" method="get" class="booking-form">
+
+            <label for="clientName">Имя и фамилия:</label>
+            <input type="text" id="clientName" name="name"
+                   placeholder="Введите ваше имя" required>
+
+            <label for="clientPhone">Номер телефона:</label>
+            <input type="tel" id="clientPhone" name="phone"
+                   placeholder="+998 90 123 45 67" required>
+
+            <label for="clientEmail">Электронная почта:</label>
+            <input type="email" id="clientEmail" name="email"
+                   placeholder="example@mail.com" required>
+
+            <label for="tourName">Выберите тур:</label>
+            <select id="tourName" name="tour" required>
+                <option value="">Выберите направление</option>
+                <option value="Самарканд">Самарканд</option>
+                <option value="Бухара">Бухара</option>
+                <option value="Хива">Хива</option>
+                <option value="Ташкент">Ташкент</option>
+                <option value="Шахрисабз">Шахрисабз</option>
+                <option value="Нукус">Нукус</option>
+                <option value="Ферганская долина">Ферганская долина</option>
+                <option value="Аральское море">Аральское море</option>
+            </select>
+
+            <label for="tourists">Количество туристов:</label>
+            <input type="number" id="tourists" name="tourists"
+                   min="1" max="20" value="1" required>
+
+            <label for="tourDate">Желаемая дата поездки:</label>
+            <input type="date" id="tourDate" name="date" required>
+
+            <label for="comment">Дополнительные пожелания:</label>
+            <textarea id="comment" name="comment" rows="4"
+                      placeholder="Напишите ваши пожелания..."></textarea>
+
+            <button type="submit" class="btn">
+                Отправить заявку
+            </button>
+
+        </form>
+
+    </section>
+
+    <section class="booking-back">
+        <a href="turiUzb.html" class="btn">
+            Вернуться к турам
+        </a>
+    </section>
+
+</main>
+
+<footer id="kontakti" class="site-footer">
+    <div class="container">
+        <h2>Связаться с нами</h2>
+        <p>Телефон: <a href="tel:+998909504431">+998 90 950 44 31</a></p>
+        <p>Почта: <a href="mailto:nialco480@gmail.com">nialco480@gmail.com</a></p>
+        <p>Telegram: <a href="https://t.me/nyalco">@nyalco</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
